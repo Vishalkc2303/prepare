@@ -1,313 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>TCS DSA 200 Question Bank</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f6f8;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #004080;
-        color: white;
-        padding: 1.5rem;
-        text-align: center;
-      }
-      .container {
-        max-width: 1000px;
-        margin: 2rem auto;
-        background: white;
-        padding: 2rem;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      h2 {
-        color: #004080;
-        margin-bottom: 1rem;
-      }
-      ol {
-        padding-left: 20px;
-        line-height: 1.8;
-      }
-      footer {
-        background-color: #004080;
-        color: white;
-        text-align: center;
-        padding: 1rem;
-        margin-top: 2rem;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>TCS Ninja & Digital DSA 200-Question Bank</h1>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <title>DSA Coding Questions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 40px;
+    }
+    ol {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .section {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
 
-    <div class="container">
-      <h2>Complete DSA Practice Set</h2>
-      <ol>
-        <li>
-          Find the maximum subarray sum using Kadane's Algorithm.
-          <b>(Array / DP)</b>
-        </li>
-        <li>Rotate an array by k steps. <b>(Array)</b></li>
-        <li>Check if a string is a palindrome. <b>(String)</b></li>
-        <li>
-          Remove duplicates from a sorted array. <b>(Array / Two Pointers)</b>
-        </li>
-        <li>Find the missing number in a sequence. <b>(Array / Math)</b></li>
-        <li>
-          Move all zeroes to the end of an array. <b>(Array / Two Pointers)</b>
-        </li>
-        <li>
-          Merge two sorted arrays without using extra space.
-          <b>(Array / In-place)</b>
-        </li>
-        <li>
-          Reverse a string without using in-built functions. <b>(String)</b>
-        </li>
-        <li>Check if two strings are anagrams. <b>(String / Hashing)</b></li>
-        <li>
-          Find the first non-repeating character in a string.
-          <b>(String / Hashing)</b>
-        </li>
-        <li>
-          Implement binary search on a sorted array. <b>(Binary Search)</b>
-        </li>
-        <li>Sort an array using bubble sort. <b>(Sorting)</b></li>
-        <li>Find the intersection of two arrays. <b>(Array / Hashing)</b></li>
-        <li>Find the union of two sorted arrays. <b>(Array / Set)</b></li>
-        <li>
-          Sort an array using merge sort. <b>(Sorting / Divide & Conquer)</b>
-        </li>
-        <li>
-          Find the frequency of elements in an array. <b>(Array / Hashing)</b>
-        </li>
-        <li>Check if array is sorted and rotated. <b>(Array / Logical)</b></li>
-        <li>
-          Count occurrences of a number in a sorted array.
-          <b>(Binary Search)</b>
-        </li>
-        <li>
-          Find the smallest element in a rotated array. <b>(Binary Search)</b>
-        </li>
-        <li>
-          Sort an array of 0s, 1s and 2s (Dutch National Flag problem).
-          <b>(Array / Two Pointers)</b>
-        </li>
-        <li>Reverse a linked list iteratively. <b>(Linked List)</b></li>
-        <li>
-          Find the middle element of a linked list.
-          <b>(Linked List / Two Pointers)</b>
-        </li>
-        <li>
-          Detect a loop in a linked list. <b>(Linked List / Floyd’s Cycle)</b>
-        </li>
-        <li>
-          Remove duplicates from a linked list. <b>(Linked List / Hashing)</b>
-        </li>
-        <li>Merge two sorted linked lists. <b>(Linked List)</b></li>
-        <li>Delete a node without head pointer. <b>(Linked List)</b></li>
-        <li>
-          Check if a linked list is a palindrome.
-          <b>(Linked List / Stack / Two Pointers)</b>
-        </li>
-        <li>
-          Find nth node from the end of a linked list.
-          <b>(Linked List / Two Pointers)</b>
-        </li>
-        <li>
-          Segregate even and odd nodes in a linked list. <b>(Linked List)</b>
-        </li>
-        <li>
-          Add two numbers represented by linked lists.
-          <b>(Linked List / Math)</b>
-        </li>
-        <li>Implement a stack using arrays. <b>(Stack)</b></li>
-        <li>Check for balanced parentheses in an expression. <b>(Stack)</b></li>
-        <li>Implement a queue using two stacks. <b>(Queue / Stack)</b></li>
-        <li>
-          Design a stack that supports getMin in O(1). <b>(Stack / Design)</b>
-        </li>
-        <li>Evaluate a postfix expression. <b>(Stack / Expression)</b></li>
-        <li>Reverse a queue using recursion. <b>(Queue / Recursion)</b></li>
-        <li>Implement a circular queue. <b>(Queue / Array)</b></li>
-        <li>Sort a stack using recursion. <b>(Stack / Recursion)</b></li>
-        <li>
-          Implement a queue using linked list. <b>(Queue / Linked List)</b>
-        </li>
-        <li>
-          Implement a stack using linked list. <b>(Stack / Linked List)</b>
-        </li>
-        <li>
-          Implement inorder traversal of binary tree. <b>(Tree / Traversal)</b>
-        </li>
-        <li>Find the height of a binary tree. <b>(Tree / DFS)</b></li>
-        <li>Check if two trees are identical. <b>(Tree / Recursion)</b></li>
-        <li>Print level order traversal of a tree. <b>(Tree / BFS)</b></li>
-        <li>Check if a binary tree is balanced. <b>(Tree / DFS)</b></li>
-        <li>Find LCA in a BST. <b>(Tree / BST)</b></li>
-        <li>Find the diameter of a binary tree. <b>(Tree / DFS)</b></li>
-        <li>Convert a binary tree to its mirror. <b>(Tree / Recursion)</b></li>
-        <li>Count leaf nodes in a binary tree. <b>(Tree)</b></li>
-        <li>Check if a tree is symmetric. <b>(Tree / DFS)</b></li>
-        <li>Find nth Fibonacci number using DP. <b>(DP)</b></li>
-        <li>
-          Solve 0/1 knapsack using recursion and DP. <b>(DP / Knapsack)</b>
-        </li>
-        <li>Longest Common Subsequence problem. <b>(DP)</b></li>
-        <li>
-          Minimum number of jumps to reach end of array. <b>(DP / Greedy)</b>
-        </li>
-        <li>Subset sum problem using DP. <b>(DP)</b></li>
-        <li>Maximum sum of non-adjacent elements. <b>(DP)</b></li>
-        <li>Count ways to climb stairs. <b>(DP)</b></li>
-        <li>Coin change problem (min coins). <b>(DP)</b></li>
-        <li>
-          Find longest increasing subsequence. <b>(DP / Binary Search)</b>
-        </li>
-        <li>Rod cutting problem using recursion. <b>(DP)</b></li>
-        <li>Find the longest palindromic substring. <b>(String / DP)</b></li>
-        <li>Implement Rabin-Karp string matching. <b>(String / Hashing)</b></li>
-        <li>
-          Z-algorithm for pattern searching. <b>(String / Pattern Matching)</b>
-        </li>
-        <li>
-          Longest prefix which is also suffix (KMP).
-          <b>(String / Pattern Matching)</b>
-        </li>
-        <li>
-          Minimum window substring that contains all characters.
-          <b>(String / Sliding Window)</b>
-        </li>
-        <li>
-          Find the duplicate number without modifying array.
-          <b>(Array / Cycle Detection)</b>
-        </li>
-        <li>Set matrix zeroes in-place. <b>(Matrix)</b></li>
-        <li>Group anagrams using hashing. <b>(String / HashMap)</b></li>
-        <li>
-          Find median of two sorted arrays. <b>(Array / Binary Search)</b>
-        </li>
-        <li>Product of array except self. <b>(Array / Prefix Suffix)</b></li>
-        <li>Quick sort implementation with random pivot. <b>(Sorting)</b></li>
-        <li>
-          Find the kth smallest/largest element using quick select.
-          <b>(Quickselect / Partition)</b>
-        </li>
-        <li>
-          Count inversions using merge sort. <b>(Merge Sort / Inversions)</b>
-        </li>
-        <li>
-          Search in rotated sorted array. <b>(Binary Search / Rotated Array)</b>
-        </li>
-        <li>
-          Find majority element using Boyer-Moore Voting.
-          <b>(Array / Voting Algorithm)</b>
-        </li>
-        <li>
-          Allocate minimum number of pages. <b>(Binary Search on Answer)</b>
-        </li>
-        <li>
-          Aggressive cows problem (binary search on answer).
-          <b>(Binary Search on Answer)</b>
-        </li>
-        <li>Painter partition problem. <b>(Binary Search / Greedy)</b></li>
-        <li>Maximum sum submatrix. <b>(Matrix / Kadane + Prefix)</b></li>
-        <li>
-          Median in a row-wise sorted matrix. <b>(Matrix / Binary Search)</b>
-        </li>
-        <li>Flatten a multilevel linked list. <b>(Linked List)</b></li>
-        <li>
-          Clone a linked list with random pointers.
-          <b>(Linked List / HashMap)</b>
-        </li>
-        <li>
-          Detect and remove loop in linked list.
-          <b>(Linked List / Floyd’s Cycle)</b>
-        </li>
-        <li>
-          Sort linked list using merge sort. <b>(Linked List / Sorting)</b>
-        </li>
-        <li>
-          Intersection point in Y-shaped linked list. <b>(Linked List)</b>
-        </li>
-        <li>
-          LRU cache design using doubly linked list.
-          <b>(Design / Linked List / HashMap)</b>
-        </li>
-        <li>
-          Reorder linked list in specific pattern.
-          <b>(Linked List / Reverse / Merge)</b>
-        </li>
-        <li>Rotate linked list by k places. <b>(Linked List)</b></li>
-        <li>
-          Add numbers represented as linked lists (with carry).
-          <b>(Linked List / Math)</b>
-        </li>
-        <li>Multiply two linked lists. <b>(Linked List / Math)</b></li>
-        <li>Diameter of tree using DFS. <b>(Tree / DFS)</b></li>
-        <li>Serialize and deserialize a binary tree. <b>(Tree / Design)</b></li>
-        <li>Boundary traversal of binary tree. <b>(Tree / Traversal)</b></li>
-        <li>Zigzag traversal of binary tree. <b>(Tree / BFS)</b></li>
-        <li>Vertical order traversal using map. <b>(Tree / Map / BFS)</b></li>
-        <li>Print all paths from root to leaf. <b>(Tree / Backtracking)</b></li>
-        <li>
-          Detect cycle in undirected graph using BFS. <b>(Graph / BFS)</b>
-        </li>
-        <li>
-          Topological sort using Kahn's algorithm. <b>(Graph / BFS / DAG)</b>
-        </li>
-        <li>
-          Check if a graph is bipartite. <b>(Graph / BFS or DFS Coloring)</b>
-        </li>
-        <li>
-          Dijkstra's algorithm for shortest path.
-          <b>(Graph / Priority Queue)</b>
-        </li>
-        <li>Edit distance between two strings. <b>(DP / String)</b></li>
-        <li>Boolean parenthesization problem. <b>(DP / Expression)</b></li>
-        <li>Matrix chain multiplication. <b>(DP)</b></li>
-        <li>Palindrome partitioning using DP. <b>(DP / String)</b></li>
-        <li>Egg dropping puzzle. <b>(DP)</b></li>
-        <li>Count palindromic subsequences. <b>(DP / String)</b></li>
-        <li>Wild card pattern matching. <b>(DP / String Matching)</b></li>
-        <li>Word break problem using Trie + DP. <b>(Trie / DP)</b></li>
-        <li>Minimum cost path in a matrix. <b>(DP / Matrix)</b></li>
-        <li>Maximum profit in job scheduling. <b>(DP / Greedy)</b></li>
-        <li>
-          Implement Disjoint Set Union with path compression.
-          <b>(DSU / Union Find)</b>
-        </li>
-        <li>
-          Find articulation points in graph. <b>(Graph / DFS / Bridges)</b>
-        </li>
-        <li>Trie implementation with insert, search, delete. <b>(Trie)</b></li>
-        <li>
-          Detect bridge edges in graph. <b>(Graph / Tarjan’s Algorithm)</b>
-        </li>
-        <li>XOR of all elements in a range. <b>(Bit Manipulation)</b></li>
-        <li>
-          Count total set bits from 1 to N. <b>(Bit Manipulation / DP)</b>
-        </li>
-        <li>Check if a number is power of 4. <b>(Bit Manipulation)</b></li>
-        <li>
-          Sieve of Eratosthenes for prime numbers. <b>(Math / Prime Sieve)</b>
-        </li>
-        <li>
-          Find square root using binary search. <b>(Binary Search / Math)</b>
-        </li>
-        <li>
-          Game theory: Nim game implementation. <b>(Game Theory / XOR)</b>
-        </li>
-      </ol>
-    </div>
+  <h1>✅ DSA Coding Questions Rearranged for Practice</h1>
 
-    <footer>
-      &copy; 2025 TCS DSA Practice Bank | Crack Ninja & Digital with Confidence
-    </footer>
-  </body>
+  <div class="section">
+    <h2>🔰 Beginner Friendly (Start Coding Immediately)</h2>
+    <ol start="1">
+      <li>Reverse a string without using in-built functions. (String)</li>
+      <li>Check if a string is a palindrome. (String)</li>
+      <li>Implement binary search on a sorted array. (Binary Search)</li>
+      <li>Rotate an array by k steps. (Array)</li>
+      <li>Move all zeroes to the end of an array. (Array / Two Pointers)</li>
+      <li>Find the missing number in a sequence. (Array / Math)</li>
+      <li>Find the maximum subarray sum using Kadane's Algorithm. (Array / DP)</li>
+      <li>Remove duplicates from a sorted array. (Array / Two Pointers)</li>
+      <li>Check if two strings are anagrams. (String / Hashing)</li>
+      <li>Find the first non-repeating character in a string. (String / Hashing)</li>
+      <li>Sort an array using bubble sort. (Sorting)</li>
+      <li>Merge two sorted arrays without using extra space. (Array / In-place)</li>
+      <li>Find the frequency of elements in an array. (Array / Hashing)</li>
+      <li>Reverse a linked list iteratively. (Linked List)</li>
+      <li>Find the middle element of a linked list. (Linked List / Two Pointers)</li>
+      <li>Detect a loop in a linked list. (Linked List / Floyd's Cycle)</li>
+      <li>Remove duplicates from a linked list. (Linked List / Hashing)</li>
+      <li>Merge two sorted linked lists. (Linked List)</li>
+      <li>Add two numbers represented by linked lists. (Linked List / Math)</li>
+      <li>Implement a stack using arrays. (Stack)</li>
+      <li>Check for balanced parentheses in an expression. (Stack)</li>
+      <li>Evaluate a postfix expression. (Stack / Expression)</li>
+      <li>Implement a queue using linked list. (Queue)</li>
+      <li>Reverse a queue using recursion. (Queue)</li>
+      <li>Implement inorder traversal of binary tree. (Tree / Traversal)</li>
+      <li>Print level order traversal of a tree. (Tree / BFS)</li>
+      <li>Count leaf nodes in a binary tree. (Tree)</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ Intermediate Level (Logic + Code)</h2>
+    <ol start="28">
+      <li>Delete a node without head pointer. (Linked List)</li>
+      <li>Find nth node from the end of a linked list. (Linked List / Two Pointers)</li>
+      <li>Segregate even and odd nodes in a linked list. (Linked List)</li>
+      <li>Multiply two linked lists. (Linked List / Math)</li>
+      <li>Implement a queue using two stacks. (Queue / Stack)</li>
+      <li>Design a stack that supports getMin in O(1). (Stack / Design)</li>
+      <li>Sort a stack using recursion. (Stack / Recursion)</li>
+      <li>Implement a circular queue. (Queue / Array)</li>
+      <li>Check if array is sorted and rotated. (Array / Logic)</li>
+      <li>Count occurrences of a number in a sorted array. (Binary Search)</li>
+      <li>Find the smallest element in a rotated array. (Binary Search)</li>
+      <li>Sort an array of 0s, 1s and 2s. (Array / Dutch National Flag)</li>
+      <li>Sort an array using merge sort. (Sorting / Divide & Conquer)</li>
+      <li>Intersection of two arrays. (Array / Hashing)</li>
+      <li>Union of two sorted arrays. (Array / Set)</li>
+      <li>Check if a linked list is a palindrome. (Linked List / Stack / Pointers)</li>
+      <li>Flatten a multilevel linked list. (Linked List)</li>
+      <li>Sort linked list using merge sort. (Linked List / Sorting)</li>
+      <li>Clone a linked list with random pointers. (Linked List / HashMap)</li>
+      <li>Detect and remove loop in linked list. (Linked List / Cycle)</li>
+      <li>Intersection point in Y-shaped linked list. (Linked List)</li>
+      <li>Reorder linked list in specific pattern. (Linked List / Reverse / Merge)</li>
+      <li>Rotate linked list by k places. (Linked List)</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>🧠 Advanced (DP, Trees, Graphs, Design)</h2>
+    <ol start="51">
+      <li>Find the diameter of a binary tree. (Tree / DFS)</li>
+      <li>Check if two trees are identical. (Tree / Recursion)</li>
+      <li>Check if a binary tree is balanced. (Tree / DFS)</li>
+      <li>Convert a binary tree to its mirror. (Tree / Recursion)</li>
+      <li>Check if a tree is symmetric. (Tree / DFS)</li>
+      <li>Find the height of a binary tree. (Tree / DFS)</li>
+      <li>Find LCA in a BST. (Tree / BST)</li>
+      <li>Print all paths from root to leaf. (Tree / Backtracking)</li>
+      <li>Boundary traversal of binary tree. (Tree / Traversal)</li>
+      <li>Zigzag traversal of binary tree. (Tree / BFS)</li>
+      <li>Vertical order traversal using map. (Tree / Map / BFS)</li>
+      <li>Diameter of tree using DFS. (Tree / DFS)</li>
+      <li>Serialize and deserialize a binary tree. (Tree / Design)</li>
+      <li>Find nth Fibonacci number using DP. (DP)</li>
+      <li>Longest Common Subsequence problem. (DP)</li>
+      <li>Minimum number of jumps to reach end of array. (DP / Greedy)</li>
+      <li>Maximum sum of non-adjacent elements. (DP)</li>
+      <li>Subset sum problem using DP. (DP)</li>
+      <li>Coin change problem (min coins). (DP)</li>
+      <li>Count ways to climb stairs. (DP)</li>
+      <li>Rod cutting problem using recursion. (DP)</li>
+      <li>Edit distance between two strings. (DP / String)</li>
+      <li>Longest palindromic substring. (String / DP)</li>
+      <li>Palindrome partitioning using DP. (DP / String)</li>
+      <li>Boolean parenthesization problem. (DP / Expression)</li>
+      <li>Matrix chain multiplication. (DP)</li>
+      <li>Count palindromic subsequences. (DP / String)</li>
+      <li>Egg dropping puzzle. (DP)</li>
+      <li>Word break problem using Trie + DP. (Trie / DP)</li>
+      <li>Minimum cost path in a matrix. (DP / Matrix)</li>
+      <li>Maximum profit in job scheduling. (DP / Greedy)</li>
+      <li>Find the duplicate number without modifying array. (Array / Cycle)</li>
+      <li>Set matrix zeroes in-place. (Matrix)</li>
+      <li>Group anagrams using hashing. (String / HashMap)</li>
+      <li>Find median of two sorted arrays. (Array / Binary Search)</li>
+      <li>Product of array except self. (Array / Prefix-Suffix)</li>
+      <li>Quick sort implementation with random pivot. (Sorting)</li>
+      <li>Quick select for kth smallest/largest. (Partition / QuickSelect)</li>
+      <li>Count inversions using merge sort. (Merge Sort / Inversions)</li>
+      <li>Search in rotated sorted array. (Binary Search)</li>
+      <li>Majority element using Boyer-Moore Voting. (Array / Voting)</li>
+      <li>Allocate minimum number of pages. (Binary Search on Answer)</li>
+      <li>Aggressive cows problem. (Binary Search on Answer)</li>
+      <li>Painter partition problem. (Binary Search / Greedy)</li>
+      <li>Maximum sum submatrix. (Matrix / Kadane)</li>
+      <li>Median in a row-wise sorted matrix. (Matrix / Binary Search)</li>
+      <li>Trie implementation with insert, search, delete. (Trie)</li>
+      <li>Rabin-Karp string matching. (String / Hashing)</li>
+      <li>Z-algorithm for pattern searching. (String / Pattern Matching)</li>
+      <li>Longest prefix which is also suffix (KMP). (String / Pattern Matching)</li>
+      <li>Minimum window substring that contains all characters. (String / Sliding Window)</li>
+      <li>Implement Disjoint Set Union with path compression. (DSU / Union Find)</li>
+      <li>Find articulation points in graph. (Graph / DFS)</li>
+      <li>Detect bridge edges in graph. (Graph / Tarjan)</li>
+      <li>Detect cycle in undirected graph using BFS. (Graph / BFS)</li>
+      <li>Topological sort using Kahn's algorithm. (Graph / BFS)</li>
+      <li>Check if a graph is bipartite. (Graph / Coloring)</li>
+      <li>Dijkstra's algorithm for shortest path. (Graph / Priority Queue)</li>
+      <li>XOR of all elements in a range. (Bit Manipulation)</li>
+      <li>Count total set bits from 1 to N. (Bit Manipulation / DP)</li>
+      <li>Check if a number is power of 4. (Bit Manipulation)</li>
+      <li>Sieve of Eratosthenes for prime numbers. (Math / Primes)</li>
+      <li>Find square root using binary search. (Math / Binary Search)</li>
+      <li>Game theory: Nim game implementation. (Game Theory / XOR)</li>
+    </ol>
+  </div>
+
+</body>
 </html>
